@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	border: border-box;
+}
+/* bar design */
+.bar {
+	height: 60px;
+	background-color: rgba(60, 60, 60, 0.8);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+.logo {
+	margin: 20px;
+}
+
+.header-text {
+	text-decoration: none;
+	color: white;
+	margin: 20px;
+}
+.header-text1 {
+	text-decoration: none;
+	color: white;
+	margin-left: -4px;
+	margin-right: 10px;
+}
+.bar1 {
+	height: 650px;
+	background-image: url("/Project2/img/shoe.jpg");
+	background-size: cover;
+}
+.border {
+	border: 2px solid transparent;
+}
+.border:hover {
+	border: 1px solid white;
+}
+.text1 {
+	color: white;
+	position: absolute;
+	top: 200px;
+	left: 30px;
+	font-size: 30px;
+	text-shadow: rgb(255, 255, 255) 12px -20px 20px;
+}
+.text2 {
+	color: white;
+	position: absolute;
+	top: 285px;
+	left: 30px;
+	font-size: 20px;
+}
+.button {
+	text-decoration: none;
+	color: white;
+	background-color: rgb(17, 121, 156);
+	padding: 1px 4px 1px 4px;
+	align-items: center;
+	border-radius: 5px;
+	font-size: 20px;
+	position: absolute;
+	left: 150px;
+	box-shadow: white 2px -1px 3px;
+}
+.img1 {
+	height: 280px;
+	width: 500px;
+	background-image: url("/Project2/img/shoes1.jpg");
+	background-size: cover;
+	box-shadow: white 2px -1px 3px;
+	position: absolute;
+	top: 180px;
+	right: 30px;
+}
+.img1:hover {
+	border: 2px solid white;
+}
+.hero {
+	height: 600px;
+	background-color: white;
+}
+.text3 {
+	color: #14213d;
+	font-size: 20px;
+	position: absolute;
+	top: 700px;
+	left: 450px;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 600;
+}
+/* hero design */
+.hero {
+	display: flex;
+	justify-content: center;
+}
+.box {
+	height: 800px;
+	width: 1300px;
+	background-color: #f1faee;
+	margin: 25px;
+	box-shadow: black 2px -1px 3px;
+	position: absolute;
+	top: 730px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.box:hover {
+	border: 2px solid white;
+}
+.box1 {
+	height: 350px;
+	width: 300px;
+	background-color: white;
+	position: relative;
+	left: 3px;
+	top: 30px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.box1-in {
+	height: 220px;
+	width: 270px;
+	background-image: url("/Project2/img/nike.jpg");
+	background-size: cover;
+	position: relative;
+	top: 40px;
+	left: 15px;
+	border: 1px solid black;
+}
+.box-text1 {
+	font-size: 20px;
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
+.box-text2 {
+	font-size: 20px;
+	position: relative;
+	top: 300px;
+	left: -35px;
+}
+.signm {
+	font-size: 17px;
+	position: relative;
+	top: 300px;
+	left: -35px;
+	font-weight: 600;
+}
+.sign-under {
+	font-size: 14px;
+	position: relative;
+	top: 320px;
+	left: -120px;
+	font-weight: 600;
+	color: blue;
+}
+.box2 {
+	height: 500px;
+	background-color: bisque;
+	position: absolute;
+}
+/* footer design */
+.foot1 {
+	height: 300px;
+	position: absolute;
+	background-color: #1d3557;
+	width: 100%;
+	top: 1600px;
+}
+.foot-bar1 {
+	height: 40px;
+	width: 100%;
+	color: white;
+	background-color: #14213d;
+	position: relative;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	border: 1px solid white;
+}
+.foot-a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
