@@ -16,18 +16,21 @@
 }
 .logo {
 	margin: 20px;
+	padding: 5px;
 }
 
 .header-text {
 	text-decoration: none;
 	color: white;
 	margin: 20px;
+	padding: 5px;
 }
 .header-text1 {
 	text-decoration: none;
 	color: white;
 	margin-left: -4px;
 	margin-right: 10px;
+	padding: 5px;
 }
 .bar1 {
 	height: 650px;
@@ -81,7 +84,7 @@
 	border: 2px solid white;
 }
 .hero {
-	height: 600px;
+	height: 2000px;
 	background-color: white;
 }
 .text3 {
@@ -160,11 +163,36 @@
 	left: -120px;
 	font-weight: 600;
 	color: blue;
+	text-decoration: none;
 }
 .box2 {
-	height: 500px;
-	background-color: bisque;
-	position: absolute;
+	height: 900px;
+
+	background-image: url("/Project2/img/panel.jpg");
+	background-size: cover;
+	width: 100%;
+	position: relative;
+	bottom: -940px;
+	display: flex;
+}
+.box2-in {
+	height: 400px;
+	background-color: rgba(201, 203, 215, 0.3);
+	width: 85%;
+	display: flex;
+	margin-top: 100px;
+	margin-left: 6em;
+	border-radius: 1em;
+	padding: 10px;
+}
+.box2-in:hover {
+	border: 1px solid transparent;
+}
+.box2-text {
+	color: black;
+	display: block;
+	font-size: 20px;
+	font-weight: 500;
 }
 /* footer design */
 .foot1 {
@@ -172,7 +200,7 @@
 	position: absolute;
 	background-color: #1d3557;
 	width: 100%;
-	top: 1600px;
+	top: 2500px;
 }
 .foot-bar1 {
 	height: 40px;
@@ -185,6 +213,9 @@
 	display: flex;
 	justify-content: center;
 	border: 1px solid white;
+}
+.foot-bar1:hover {
+	border: 2px solid white;
 }
 .foot-a {
 	color: white;
