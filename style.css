@@ -14,7 +14,7 @@
 	align-items: center;
 	position: fixed;
 	width: 100%;
-	z-index: 1;
+	z-index: 2;
 }
 .bar-header {
 	display: flex;
@@ -49,6 +49,7 @@
 }
 .bar1 {
 	height: 650px;
+	width: 1500px;
 	background-image: url("/Project2/img/shoe.jpg");
 	background-size: cover;
 }
@@ -207,7 +208,6 @@
 	width: 100%;
 	position: relative;
 	bottom: -940px;
-	display: flex;
 }
 .box2-in {
 	height: 300px;
@@ -233,6 +233,7 @@
 /* footer design */
 .foot1 {
 	height: 300px;
+	width: 100%;
 	position: absolute;
 	background-color: #1d3557;
 	width: 100%;
