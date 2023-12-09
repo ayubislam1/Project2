@@ -49,7 +49,7 @@
 }
 .bar1 {
 	height: 650px;
-	width: 1500px;
+	width: 100%;
 	background-image: url("/Project2/img/shoe.jpg");
 	background-size: cover;
 }
