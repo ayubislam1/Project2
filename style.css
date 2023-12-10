@@ -147,8 +147,9 @@
 	position: absolute;
 	top: 730px;
 	display: flex;
-	justify-content: space-evenly;
 	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
 }
 .box:hover {
 	border: 2px solid white;
