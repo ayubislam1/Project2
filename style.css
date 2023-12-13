@@ -96,7 +96,6 @@
 	top: 180px;
 	right: 30px;
 	animation: show 25s linear 3s infinite;
-	z-index: 1;
 }
 @keyframes show {
 	0% {
