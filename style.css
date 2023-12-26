@@ -102,11 +102,11 @@
 	}
 
 	50% {
-		background-image: url("/Project2/img/shoe5.png");
+		background-image: url("/Project2/img/shoe5.jpg");
 	}
 
 	100% {
-		background-image: url("/Project2/img/shoe4.png");
+		background-image: url("/Project2/img/shoe4.jpg");
 	}
 }
 
