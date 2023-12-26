@@ -2,7 +2,6 @@
 	margin: 0px;
 
 	border: border-box;
-	scroll-behavior: smooth;
 }
 /* bar design */
 .bar {
@@ -78,7 +77,7 @@
 	text-decoration: none;
 	color: white;
 	background-color: rgb(17, 121, 156);
-	padding: 1px 4px 1px 4px;
+	padding: 4px 7px 4px 7px;
 	align-items: center;
 	border-radius: 5px;
 	font-size: 20px;
@@ -101,26 +100,22 @@
 	0% {
 		background-image: url("/Project2/img/shoes1.jpg");
 	}
-	25% {
+
+	50% {
 		background-image: url("/Project2/img/shoe5.png");
 	}
-	50% {
-		background-image: url("/Project2/img/shoe22.png");
-	}
-	75% {
-		background-image: url("/Project2/img/shoe3.png");
-	}
+
 	100% {
 		background-image: url("/Project2/img/shoe4.png");
 	}
 }
-.img1:hover {
-	border: 2px solid white;
-}
+
 .hero {
 	height: 2000px;
 	width: 100%;
 	background-color: white;
+	display: flex;
+	justify-content: center;
 }
 .text3 {
 	color: #14213d;
@@ -133,10 +128,7 @@
 	font-weight: 600;
 }
 /* hero design */
-.hero {
-	display: flex;
-	justify-content: center;
-}
+
 .box {
 	height: 800px;
 	width: 95%;
@@ -242,6 +234,7 @@
 .foot-bar1 {
 	height: 40px;
 	width: 100%;
+	box-sizing: border-box;
 	color: white;
 	background-color: #14213d;
 	position: relative;
